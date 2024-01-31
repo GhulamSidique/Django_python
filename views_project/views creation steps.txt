@@ -1,0 +1,22 @@
+Django
+View: there are two types of views. the function based and the class based view.
+1. Function based view:
+a function that takes web request and redturns a web response.
+syntax:
+def function(request):
+	return HttpResponse('htm'/'variable' etc)
+
+we will write the view code in the view.py file of the application
+after that we have to define the url name of this function in the projetsc url.py file 
+we have to import the HttpResponse from django.http module
+
+Create a view syntax complete
+create a project==> django_admin startproject name
+create an application ==> python manage.py startapp name
+open settings file and add application name there
+open views file and write above syntax of view
+open url and add view there by importing view from application name
+now the views are created and we can run them by inserting the http port number
+https:....../name of view1
+https:....../name of view2
+and so on....
